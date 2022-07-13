@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: azure;
+}
+main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+h1, h3 {
+    text-align: center;
+}
+h1{
+    font-size: 45px;
+}
+h3 {
+    font-size: 21px;
+    color: gray;
+}
+p{
+    margin: 25px 50px;
+}
+p::first-line{
+    margin: 12px;
+}
+img {
+    border: 5px solid rgb(184, 238, 242);
+    border-radius: 50%;
+}
